@@ -177,7 +177,7 @@ int BatchComd(int);
 int FcComd(int);				//fc命令处理函数
 int ReplaceComd(int);			//replace命令，实现文件取代
 
-// todo 打开时会导致 copy * temp 死循环？
+// todo 关闭时会导致 copy * temp 死循环
 // #define INIT	//决定初始化还是从磁盘读入
 
 int main()
